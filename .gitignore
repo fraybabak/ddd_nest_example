@@ -1,0 +1,12 @@
+# compiled output
+/dist
+/node_modules
+/coverage
+
+# OS
+.DS_Store
+
+# IDE - VSCode
+.vscode/*
+# Keep environment variables out of version control
+.env
