@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "paths": {
+      "@app/api-gateway": ["api-gateway/src"],
+      "@app/api-gateway/*": ["api-gateway/src/*"],
+      "@common/logger": ["common/logger/src"],
+      "@common/logger/*": ["common/logger/src/*"],
+      "@common/domain-event-publisher": ["common/domain-event-publisher/src"],
+      "@common/domain-event-publisher/*": ["common/domain-event-publisher/src/*"],
+      "@common/prisma": ["common/prisma/src"],
+      "@common/prisma/*": ["common/prisma/src/*"],
+      "@common/utils": ["common/utils"],
+      "@common/utils/*": ["common/utils/*"],
+      "@identity-and-access": ["identity-and-access/src"],
+      "@identity-and-access/*": ["identity-and-access/src/*"],
+      "@notifications": ["notifications/src"],
+      "@notifications/*": ["notifications/src/*"],
+    }
+  }
+}
